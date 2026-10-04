@@ -3,6 +3,7 @@
 ## Lista dinámica
 - [x] Conectar este repo local con el remoto privado en GitHub (`angelaramiz/BiblioSkills`, privado)
 - [x] Definir formato estándar + ciclo de vida (instalación/evolución) — ver `.agents/rules/ciclo-vida-skills.md`
-- [ ] Piloto: estandarizar `emulador-android` (variables: AVD, paquete, APK, resolución) como `v1.0.0`
-- [ ] Piloto: instalarla en un proyecto con mapeo + plan + `ADAPTER.md` y registrar versión
+- [x] Piloto: estandarizar `emulador-android` (variables: AVD, paquete, APK, resolución) como `v1.0.0`
+- [x] Piloto: instalarla en un proyecto con mapeo + plan + `ADAPTER.md` y registrar versión (Gestor inventory: `skills/emulador-android/` + T-014; pendiente verificación con emulador vivo T-013)
+- [ ] Siguiente: `ADAPTER.md` de CalendarFinace (credenciales demo, tabs, Tile) + re-sincronizar su copia
 - [ ] Definir la primera skill propia (nombre + qué workflow cubre)
