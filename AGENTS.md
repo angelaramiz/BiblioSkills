@@ -14,6 +14,13 @@ Repo greenfield: biblioteca de agent-skills reutilizables (solo Markdown). Sin b
 - Una capacidad por skill; promover un workflow a skill solo si se repite entre sesiones y sus reglas ya son estables.
 - Preferir verdad ejecutable: comandos, rutas y nombres de tablas/endpoints deben existir en código/config — nunca inventar URLs, paquetes ni tablas.
 
+## Ciclo de vida (resumen)
+
+- Formato estándar: frontmatter `name/version/description` + tabla Variables del proyecto + `CHANGELOG.md` por skill. Plantilla: `skill/plantilla-skill/`.
+- Instalación: mapear proyecto → plan en su `.agents/input.md` → copiar a `<proyecto>/.agents/skill/<nombre>/` + `ADAPTER.md` local (la copia estándar no se edita).
+- Evolución: mejora en proyecto → separar genérico/específico → bump semver + changelog → otros proyectos re-sincronizan solo si lo necesitan.
+- Detalle: `.agents/rules/ciclo-vida-skills.md`.
+
 ## Flujo del agente
 
 1. Leer `AGENTS.md`, luego `.agents/input.md` + `.agents/tasks.md` si existen.
