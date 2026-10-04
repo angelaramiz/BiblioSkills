@@ -1,0 +1,17 @@
+# Índice y artefactos locales que nunca se commitean
+.codegraph/*.db*
+.codegraph/daemon.pid
+.codegraph/daemon.log
+
+# Secretos y entorno local
+.env
+.env.local
+local.properties
+*.jks
+*.keystore
+
+# Restos de sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
