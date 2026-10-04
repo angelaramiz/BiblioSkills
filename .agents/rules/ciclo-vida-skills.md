@@ -61,3 +61,6 @@ parametrizarla antes de versionarla como `1.0.0`.
 2. Un valor de variable debe existir en el proyecto (ver `AGENTS.md`): nunca inventar rutas, paquetes, endpoints ni tablas.
 3. CHANGELOG por skill, no global. Cada entrada: versión, fecha, qué cambió y origen.
 4. Sin updates forzados entre proyectos: cada proyecto actualiza cuando lo necesita.
+5. Scripts `.ps1` de una skill en ASCII puro (sin emojis ni acentos): PowerShell 5.1
+   lee UTF-8 sin BOM como ANSI y rompe el parse (`string terminator`). Verificado
+   con `ota-android-generic` (17 errores fantasma por emojis en strings).
