@@ -6,4 +6,4 @@
 - [x] Piloto: estandarizar `emulador-android` (variables: AVD, paquete, APK, resolución) como `v1.0.0`
 - [x] Piloto: instalarla en un proyecto con mapeo + plan + `ADAPTER.md` y registrar versión (Gestor inventory: `skills/emulador-android/` + T-014; pendiente verificación con emulador vivo T-013)
 - [ ] Siguiente: `ADAPTER.md` de CalendarFinace (credenciales demo, tabs, Tile) + re-sincronizar su copia
-- [ ] Definir la primera skill propia (nombre + qué workflow cubre)
+- [x] Piloto android-kotlin-app v1.0.0: estandarizada + instalada en Gestor (T-015, 3 huecos → T-016 de Gestor)
