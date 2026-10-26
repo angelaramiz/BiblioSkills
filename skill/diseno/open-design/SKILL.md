@@ -57,4 +57,4 @@ Flujo verificado (upstream): brief → plugin → dirección → design system
 |---------|------|
 | Upstream (Apache-2.0, conservar avisos si se vendorea) | https://github.com/nexu-io/open-design |
 | Changelog | `CHANGELOG.md` (junto a este archivo) |
-| Skills hermanas | `skill/ui-ux-pro-max`, `skill/awesome-ai-tools-for-ui` |
+| Skills hermanas | `skill/diseno/ui-ux-pro-max`, `skill/diseno/awesome-ai-tools-for-ui` |

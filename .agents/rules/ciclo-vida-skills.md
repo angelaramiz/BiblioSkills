@@ -5,7 +5,7 @@ las mejoras de un proyecto regresan al estándar como versiones actualizables.
 
 ## 1. Formato estándar (lo que vive en BiblioSkills)
 
-Cada skill es `skill/<nombre>/` con:
+Cada skill es `skill/<tema>/<nombre>/` con:
 
 - `SKILL.md` con frontmatter obligatorio + tabla **Variables del proyecto** (ver `skill/plantilla-skill/`).
 - `CHANGELOG.md` propio con entradas por versión (semver: `MAYOR.MENOR.PARCHE`).

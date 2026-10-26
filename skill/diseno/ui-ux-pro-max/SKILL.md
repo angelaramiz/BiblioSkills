@@ -63,4 +63,4 @@ Flujo verificado (upstream):
 |---------|------|
 | Upstream (MIT, atribución obligatoria si se vendorea) | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill |
 | Changelog | `CHANGELOG.md` (junto a este archivo) |
-| Skills hermanas | `skill/open-design`, `skill/awesome-ai-tools-for-ui` |
+| Skills hermanas | `skill/diseno/open-design`, `skill/diseno/awesome-ai-tools-for-ui` |

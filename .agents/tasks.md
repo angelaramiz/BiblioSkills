@@ -8,3 +8,4 @@
 - [ ] Siguiente: `ADAPTER.md` de CalendarFinace (credenciales demo, tabs, Tile) + re-sincronizar su copia
 - [x] Piloto ota-android-generic v1.0.0: scripts a archivos reales + `release.ps1` por `apps.json` + instalada en Gestor (T-017, mismo hueco OTA → T-016)
 - [x] Alta `ui-ux-pro-max` / `open-design` / `awesome-ai-tools-for-ui` como v0.1.0 en evaluación (referencias externas, no vendoreadas; pendiente primer uso real)
+- [x] Reorganizar `skill/` por temas: `movil/`, `diseno/` (`plantilla-skill/` queda en raíz) + referencias actualizadas

@@ -15,6 +15,6 @@
   `warehouse_settings`, `inventorio.onrender.com`); lee `apps.json` del
   proyecto (`-AppsJson`) con `VersionEndpoint` por app en vez de ramas
   if/elseif. `update-version.ps1` y `full-release.ps1` aceptan `-DbTable`.
-- Relación con `skill/android-kotlin-app` (§3–§5): mismo patrón
+- Relación con `skill/movil/android-kotlin-app` (§3–§5): mismo patrón
   versionado/OTA/deploy; si esa skill evoluciona el patrón, esta plantilla
   debe re-sincronizarse (y viceversa).

@@ -4,7 +4,10 @@ Repo greenfield: biblioteca de agent-skills reutilizables (solo Markdown). Sin b
 
 ## Estructura prevista
 
-- `skill/<nombre-skill>/SKILL.md` — un directorio por skill, doc + scripts/assets junto a ella.
+- `skill/<tema>/<nombre-skill>/SKILL.md` — un directorio por skill, doc + scripts/assets junto a ella.
+  - `skill/movil/` — apps Android (android-kotlin-app, emulador-android, ota-android-generic).
+  - `skill/diseno/` — diseño frontend (ui-ux-pro-max, open-design, awesome-ai-tools-for-ui).
+  - `skill/plantilla-skill/` — plantilla del formato (vive en la raíz, fuera de temas).
 - `.agents/tasks.md` — tareas activas; `.agents/input.md` — instrucciones pendientes; `.agents/rules/`, `.agents/roles/`, `.agents/meetings/decisions/`, `.agents/history/` — solo si se crean.
 - Índice `.codegraph/` (si se inicializa): nunca commitear `*.db*`, `daemon.pid`, `daemon.log`.
 
@@ -16,7 +19,7 @@ Repo greenfield: biblioteca de agent-skills reutilizables (solo Markdown). Sin b
 
 ## Ciclo de vida (resumen)
 
-- Formato estándar: frontmatter `name/version/description` + tabla Variables del proyecto + `CHANGELOG.md` por skill. Plantilla: `skill/plantilla-skill/`.
+- Formato estándar: frontmatter `name/version/description` + tabla Variables del proyecto + `CHANGELOG.md` por skill. Plantilla: `skill/plantilla-skill/`. Nueva skill: crearla dentro de su `skill/<tema>/` (o proponer tema nuevo si no encaja).
 - Instalación: mapear proyecto → plan en su `.agents/input.md` → copiar a `<proyecto>/.agents/skill/<nombre>/` + `ADAPTER.md` local (la copia estándar no se edita).
 - Evolución: mejora en proyecto → separar genérico/específico → bump semver + changelog → otros proyectos re-sincronizan solo si lo necesitan.
 - Detalle: `.agents/rules/ciclo-vida-skills.md`.

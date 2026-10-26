@@ -375,7 +375,7 @@ Implementar descarga manual + intent de instalación, o plugin de downloader del
 |---------|------|
 | Changelog | `CHANGELOG.md` (junto a este archivo) |
 | Ciclo de vida | `.agents/rules/ciclo-vida-skills.md` en BiblioSkills |
-| Skill hermana | `skill/android-kotlin-app` (§3–§5 cubren versionado/OTA/deploy con el mismo patrón) |
+| Skill hermana | `skill/movil/android-kotlin-app` (§3–§5 cubren versionado/OTA/deploy con el mismo patrón) |
 | Android PackageInstaller | https://developer.android.com/reference/android/content/pm/PackageInstaller |
 | FileProvider Guide | https://developer.android.com/reference/androidx/core/content/FileProvider |
 | OkHttp Downloads | https://square.github.io/okhttp/recipes/ |

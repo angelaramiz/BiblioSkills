@@ -6,7 +6,7 @@ description: Plantilla de skill estándar. Se activa como ejemplo de formato, no
 
 # SKILL: plantilla-skill
 
-> Plantilla permanente: duplícala como `skill/<nombre-skill>/` para crear una
+> Plantilla permanente: duplícala como `skill/<tema>/<nombre-skill>/` para crear una
 > skill estándar. No borrar este directorio.
 
 ## Resumen

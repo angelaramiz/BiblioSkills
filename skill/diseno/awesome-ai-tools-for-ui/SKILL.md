@@ -51,4 +51,4 @@ upstream no hay archivo LICENSE visible — solo referenciar, nunca copiar.
 |---------|------|
 | Upstream (lista curada, solo referenciar) | https://github.com/maxbogo/awesome-ai-tools-for-ui |
 | Changelog | `CHANGELOG.md` (junto a este archivo) |
-| Skills hermanas | `skill/ui-ux-pro-max`, `skill/open-design` |
+| Skills hermanas | `skill/diseno/ui-ux-pro-max`, `skill/diseno/open-design` |
