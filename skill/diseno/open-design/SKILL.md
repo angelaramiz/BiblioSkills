@@ -1,6 +1,6 @@
 ---
 name: open-design
-version: 0.1.0
+version: 1.0.0
 description: Workspace colaborativo de diseño con agentes IA (prototipos, decks, imágenes, video). Usar al estructurar prototipos, layouts y sistemas de diseño antes de escribir código.
 ---
 
@@ -49,7 +49,7 @@ Flujo verificado (upstream): brief → plugin → dirección → design system
 
 ## Adaptadores conocidos
 
-- _(ninguno aún — v0.1.0 en evaluación, pendiente de primer uso real)_
+- BiblioTube → `.agents/skill/open-design/ADAPTER.md` (v1.0.0, 2026-10-26; solo contrato DESIGN.md, sin MCP)
 
 ## Referencias
 

@@ -1,6 +1,6 @@
 ---
 name: ui-ux-pro-max
-version: 0.1.0
+version: 1.0.0
 description: Inteligencia de diseño para UI profesional (estilos, paletas, tipografías, checklists). Usar al construir o retematizar una interfaz y necesitar un design system.
 ---
 
@@ -55,7 +55,7 @@ Flujo verificado (upstream):
 
 ## Adaptadores conocidos
 
-- _(ninguno aún — v0.1.0 en evaluación, pendiente de primer uso real)_
+- BiblioTube → `.agents/skill/ui-ux-pro-max/ADAPTER.md` (v1.0.0, 2026-10-26; stack Compose+M3 con mapeo manual, CLI no instalado)
 
 ## Referencias
 

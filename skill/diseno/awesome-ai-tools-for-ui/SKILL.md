@@ -1,6 +1,6 @@
 ---
 name: awesome-ai-tools-for-ui
-version: 0.1.0
+version: 1.0.0
 description: Lista curada de herramientas IA para UI/UX (skills, apps, MCP, recursos). Usar al elegir librería o herramienta para un desafío de interfaz complejo.
 ---
 
@@ -43,7 +43,7 @@ upstream no hay archivo LICENSE visible — solo referenciar, nunca copiar.
 
 ## Adaptadores conocidos
 
-- _(ninguno aún — v0.1.0 en evaluación, pendiente de primer uso real)_
+- BiblioTube → `.agents/skill/awesome-ai-tools-for-ui/ADAPTER.md` (v1.0.0, 2026-10-26; elegido metodo ui-ux-pro-max, resto descartado por stack)
 
 ## Referencias
 
