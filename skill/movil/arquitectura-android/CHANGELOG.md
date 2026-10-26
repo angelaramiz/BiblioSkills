@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [1.0.0] — 2026-10-26
+
+- Primer uso real: evaluación de BiblioTube (single-app `:app` +
+  `:bt-downloader`, sin DI, capas por paquete) → decisión documentada de no
+  modularizar/DI por ahora + `ADAPTER.md` local. Sin cambios al estándar
+  salvo registrar el adaptador: la v0.2.1 ya era correcta.
+
 ## [0.2.1] — 2026-10-26
 
 - Revisión externa del agente de BiblioTube (aprobada con 2 ajustes):

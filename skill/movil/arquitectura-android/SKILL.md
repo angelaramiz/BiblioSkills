@@ -1,6 +1,6 @@
 ---
 name: arquitectura-android
-version: 0.2.1
+version: 1.0.0
 description: Repositorios de referencia para arquitectura Android (Clean Architecture, modularización, calidad). Usar al estructurar una app Kotlin o decidir patrones de capas.
 ---
 
@@ -47,7 +47,7 @@ procedimiento de consulta, nunca su contenido.
 
 ## Adaptadores conocidos
 
-- _(ninguno aún — en evaluación, pendiente de primer uso real)_
+- BiblioTube → `.agents/skill/arquitectura-android/ADAPTER.md` (v0.2.1, 2026-10-26; decisión: sin DI ni módulos por feature, capas por paquete)
 
 ## Referencias
 

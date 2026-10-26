@@ -10,3 +10,4 @@
 - [x] Alta `ui-ux-pro-max` / `open-design` / `awesome-ai-tools-for-ui` como v0.1.0 en evaluación (referencias externas, no vendoreadas; pendiente primer uso real)
 - [x] Reorganizar `skill/` por temas: `movil/`, `diseno/` (`plantilla-skill/` queda en raíz) + referencias actualizadas
 - [x] Alta `arquitectura-android` v0.1.0 en `movil/` (6 repos verificados; 2 URLs corregidas + MarvelHeroes aclarado)
+- [x] Primer uso real `arquitectura-android` en BiblioTube (evaluación + ADAPTER, decisión sin-DI) → v1.0.0
