@@ -1,6 +1,6 @@
 ---
 name: arquitectura-android
-version: 0.2.0
+version: 0.2.1
 description: Repositorios de referencia para arquitectura Android (Clean Architecture, modularización, calidad). Usar al estructurar una app Kotlin o decidir patrones de capas.
 ---
 
@@ -31,6 +31,10 @@ procedimiento de consulta, nunca su contenido.
 - Enlazar, nunca copiar: respetar licencias (Apache-2.0/MIT exigen atribución).
 - Si el proyecto ya usa un DI (Koin/Hilt) o async (Coroutines/Flow), la
   referencia no lo cambia: solo informa la estructura.
+- Dimensionar antes de copiar: 1–2 devs / pocas pantallas → capas por paquete
+  en un solo módulo bastan. Modularizar por feature, DI y convention plugins
+  solo cuando duela el build o haya equipos paralelos. Registrar el porqué en
+  el ADAPTER (origen: revisión BiblioTube, que es single-app sin DI y funciona).
 - Referencias descartadas a propósito (ver CHANGELOG v0.2.0): no re-agregarlas
   sin una razón nueva.
 
@@ -51,3 +55,4 @@ procedimiento de consulta, nunca su contenido.
 |---------|------|
 | Changelog | `CHANGELOG.md` (junto a este archivo) |
 | Skills hermanas | `skill/movil/android-kotlin-app`, `skill/movil/emulador-android`, `skill/movil/ota-android-generic` |
+| Re-verificar | `2027-04` (los dos upstreams se mueven rápido) |
