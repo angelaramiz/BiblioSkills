@@ -5,7 +5,7 @@ Repo greenfield: biblioteca de agent-skills reutilizables (solo Markdown). Sin b
 ## Estructura prevista
 
 - `skill/<tema>/<nombre-skill>/SKILL.md` — un directorio por skill, doc + scripts/assets junto a ella.
-  - `skill/movil/` — apps Android (android-kotlin-app, emulador-android, ota-android-generic).
+  - `skill/movil/` — apps Android (android-kotlin-app, emulador-android, ota-android-generic, arquitectura-android).
   - `skill/diseno/` — diseño frontend (ui-ux-pro-max, open-design, awesome-ai-tools-for-ui).
   - `skill/plantilla-skill/` — plantilla del formato (vive en la raíz, fuera de temas).
 - `.agents/tasks.md` — tareas activas; `.agents/input.md` — instrucciones pendientes; `.agents/rules/`, `.agents/roles/`, `.agents/meetings/decisions/`, `.agents/history/` — solo si se crean.
